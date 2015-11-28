@@ -1,0 +1,21 @@
+<head>
+  <title>CassieWebsites</title>
+</head>
+
+<body>
+	<header>
+		<p id="appHeader">Cassie's Homework and Class Websites</p>
+	</header>
+
+	<ul>
+  		{{#each websites}}
+  			{{> website}}
+  		{{/each}}
+  	</ul>		
+</body>
+
+<template name="website">
+	<li class="siteBlocks">
+	 	<a class="siteNames" href="{{address}}">{{name}}</a>
+	</li> 	
+</template>
