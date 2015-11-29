@@ -2,7 +2,8 @@
 body {
 
 	font-family: Arial;
-	background-color: white;
+	width: 1000px;
+	margin: auto;
 }
 
 header {
@@ -10,17 +11,27 @@ header {
 	font-size: 3rem;
 }
 
+header > img {
+
+	width: 549px;
+	height: 100px;
+	
+}
+
 ul {
 
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
+	width: 950px;
+	margin: auto;
+	padding: 0;
 }
 
 .siteBlocks {
 
-	width: 300px;
-	height: 300px;
+	width: 275px;
+	height: 275px;
 	text-align: center;
 	border: 2px solid black;
 	background-color: red;
@@ -30,13 +41,15 @@ ul {
 
 .siteBlocks:hover {
 
-	background-color: green;
-	
+	background-color: white;
+	border: 2px solid red;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 4px black, 0 0 4px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;	
 }
 
 .siteBlocks:hover > a {
 
-	color: white;
+	color: red;
+	text-decoration: 
 }
 
 .siteNames {
