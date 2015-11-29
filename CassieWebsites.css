@@ -35,21 +35,18 @@ ul {
 	text-align: center;
 	border: 2px solid black;
 	background-color: red;
+	box-sizing: border-box;	
 	margin-right:2rem;
 	margin-top: 2rem;
+
+	
 }
 
 .siteBlocks:hover {
 
 	background-color: white;
-	border: 2px solid red;
-	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 4px black, 0 0 4px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;	
-}
-
-.siteBlocks:hover > a {
-
-	color: red;
-	text-decoration: 
+	border: 10px solid red;
+	border-style: groove;
 }
 
 .siteNames {
