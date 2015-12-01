@@ -8,6 +8,8 @@
 		<p id="appHeader">Cassie's Homework and Class Websites</p>
 	</header>
 
+	{{> newWebsite}}
+
 	<ul>
   		{{#each websites}}
   			{{> website}}
@@ -20,3 +22,13 @@
 	 	<a class="siteNames" href="{{address}}">{{name}}</a>
 	</li> 	
 </template>
+
+<template name="newWebsite">
+	<div>
+		<p>Add a new Class or Website</p>
+		<input id="websiteName" name="websiteName" type="text" placeholder="Website name">
+		<input name="websiteAddress" id="websiteAddress" type="text"
+		placeholder="Website Address"/>
+		<button class="submit">Submit</button>
+	</div>	
+</template>	

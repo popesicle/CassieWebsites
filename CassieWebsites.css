@@ -42,7 +42,7 @@ ul {
 	
 }
 
-.siteBlocks:hover {
+.siteBlocks:active {
 
 	background-color: white;
 	border: 10px solid red;
